@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header, main, footer{
+    width: 100%;
+}
+header{
+    height: 40px;
+    background-color: #212121 ; 
+    
+}
+header h2{
+    width: 70%;
+   
+    margin-left: 250px;
+    align-items: center;
+    background-color: #212121 ; 
+    color:#fff;
+    font-family: Helvetica;
+
+
+}
+header nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    
+}
+a.home{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    background-color: #f9a825;
+    border-radius: 100px;
+    padding: 10px;
+    color: #fff;
+    }
+a.contato{
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    
+
+}
+a.contato:hover{
+    background-color: red;
+
+}
+a.sobre{
+    width: 100px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    
+}
+main{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+main div#box-main{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(231, 231, 235); */
+    display: flex;
+    margin: auto;
+    
+}
+main div#box-main div.estante-pontilhado p{
+    padding: 10px;
+    border-right: 1px dotted grey;
+    margin: 10px;
+}
+main div#box-main div.estante input.txt{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 99%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+main div#box-main div.estante input.sub{
+    width: 100px;
+    height: 30px;
+   
+    margin: 10px; 
+    border-radius: 100px;
+    background-color:#f9a825;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    color: #fff;
+    cursor: pointer;
+    
+}
+main div#box-main div.estante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    
+
+  
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Helvetica;
+}
+.flex{
+    display: flex;
+}
